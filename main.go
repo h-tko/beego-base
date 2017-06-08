@@ -7,12 +7,25 @@ import (
 	"github.com/astaxie/beego/orm"
 	"github.com/h-tko/beego-base/helpers"
 	_ "github.com/h-tko/beego-base/routers"
+	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
+	"os"
 )
 
 // TemplateHelperの登録処理
 func initTemplate() {
 	helpers.RegisterTemplateHelpers()
+}
+
+// .env読み込み
+func envLoad() error {
+	err := godotenv.Load()
+
+	if err != nil {
+		return err
+	}
+
+	return nil
 }
 
 // DB接続初期化
@@ -36,17 +49,29 @@ func initDB() {
 	}
 }
 
-func init() {
-	initDB()
+// .envの内容に設定を書き換える
+func updateSettings() {
+	beego.BConfig.RunMode = os.Getenv("APP_RUNMODE")
+	beego.BConfig.Listen.HTTPAddr = os.Getenv("APP_DEVHOST_NAME")
 }
 
 // アプリケーションエントリーポイント
 func main() {
-	if beego.AppConfig.String("runmode") != "prod" {
-		orm.Debug = true
+	err := envLoad()
+
+	if err != nil {
+		panic(err)
 	}
 
+	updateSettings()
+
+	// 初期化処理
+	initDB()
 	initTemplate()
+
+	if beego.BConfig.RunMode != "prod" {
+		orm.Debug = true
+	}
 
 	// ログ設定
 	logs.SetLogger(logs.AdapterFile, `{"filename": "logs/app.log"}`)

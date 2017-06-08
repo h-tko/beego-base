@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --public h-takeo.mm.lvgs:3000",
     "build": "webpack"
   },
   "author": "",
@@ -21,6 +21,7 @@
     "css-loader": "^0.28.4",
     "file-loader": "^0.11.1",
     "html-webpack-plugin": "^2.28.0",
+    "node-env-file": "^0.1.8",
     "path": "^0.12.7",
     "react-transform-hmr": "^1.0.4",
     "style-loader": "^0.18.1",

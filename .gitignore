@@ -1,3 +1,4 @@
 beego-base
 vendor/*
 node_modules/*
+static/dist/

@@ -14,16 +14,22 @@
   revision = "7cde3d36aea3e1b3be7827c4dcbe6bbae73d012e"
 
 [[projects]]
+  name = "github.com/joho/godotenv"
+  packages = ["."]
+  revision = "726cc8b906e3d31c70a9671c90a13716a8d3f50d"
+  version = "v1.1"
+
+[[projects]]
   branch = "master"
   name = "github.com/jtolds/gls"
   packages = ["."]
   revision = "77f18212c9c7edc9bd6a33d383a7b545ce62f064"
 
 [[projects]]
-  branch = "1895-fix"
+  branch = "master"
   name = "github.com/lib/pq"
   packages = [".","oid"]
-  revision = "d6a313381f58fbd3b0caf8e31c113b1dd13ed883"
+  revision = "8837942c3e09574accbc5f150e2c5e057189cace"
 
 [[projects]]
   branch = "master"
@@ -40,6 +46,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "55324470a53c4d82c4543bd06eb5c8df10ed96153f0dd1f493522958965f420e"
+  inputs-digest = "961f7bc67475be628f4bf4a574a412156619f7f69a1efcca5b8e7605f6457dc6"
   solver-name = "gps-cdcl"
   solver-version = 1

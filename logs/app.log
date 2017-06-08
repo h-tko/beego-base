@@ -1,0 +1,78 @@
+2017/06/08 11:34:08 [I] [main.go:48] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 14:20:16 [I] [main.go:48] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 14:24:05 [I] [main.go:48] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 14:24:19 [I] [main.go:48] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 15:35:58 [I] [main.go:48] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 15:39:12 [I] [main.go:48] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 16:03:16 [I] [main.go:48] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 16:03:16 [I] [asm_amd64.s:2197] http server Running on http://:8081
+2017/06/08 16:03:16 [C] [asm_amd64.s:2197] ListenAndServe:  listen tcp :8081: bind: address already in use
+2017/06/08 16:03:28 [I] [main.go:48] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 16:03:28 [I] [asm_amd64.s:2197] http server Running on http://:8081
+2017/06/08 16:03:50 [D] [server.go:2568] |   172.21.2.153|[42m 200 [0m|    987.483µs|   match|[44m GET     [0m /     r:/
+2017/06/08 16:03:50 [D] [server.go:2568] |   172.21.2.153|[43m 404 [0m|    243.081µs| nomatch|[44m GET     [0m /static/dist/bundle.js
+2017/06/08 16:03:50 [D] [server.go:2568] |   172.21.2.153|[43m 404 [0m|    215.716µs| nomatch|[44m GET     [0m /favicon.ico
+2017/06/08 16:03:56 [D] [server.go:2568] |   172.21.2.153|[43m 404 [0m|    253.631µs| nomatch|[44m GET     [0m /dist/purify.min.js.map
+2017/06/08 16:10:06 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    509.177µs|   match|[44m GET     [0m /     r:/
+2017/06/08 16:10:38 [D] [server.go:2568] |   172.21.2.153|[43m 404 [0m|    331.389µs| nomatch|[44m GET     [0m /static/dist/bundle.js
+2017/06/08 16:10:38 [D] [server.go:2568] |   172.21.2.153|[43m 404 [0m|    339.039µs| nomatch|[44m GET     [0m /static/dist/dist/purify.min.js.map
+2017/06/08 16:10:42 [D] [server.go:2568] |   172.21.2.153|[43m 404 [0m|    321.939µs| nomatch|[44m GET     [0m /static/bundle.js
+2017/06/08 16:10:42 [D] [server.go:2568] |   172.21.2.153|[43m 404 [0m|    304.349µs| nomatch|[44m GET     [0m /static/dist/purify.min.js.map
+2017/06/08 16:10:45 [D] [server.go:2568] |   172.21.2.153|[43m 404 [0m|    249.463µs| nomatch|[44m GET     [0m /bundle.js
+2017/06/08 16:10:45 [D] [server.go:2568] |   172.21.2.153|[43m 404 [0m|    263.647µs| nomatch|[44m GET     [0m /dist/purify.min.js.map
+2017/06/08 16:12:06 [I] [main.go:48] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 16:12:06 [I] [asm_amd64.s:2197] http server Running on http://:8081
+2017/06/08 16:12:06 [C] [asm_amd64.s:2197] ListenAndServe:  listen tcp :8081: bind: address already in use
+2017/06/08 16:12:21 [D] [server.go:2568] |   172.21.2.153|[42m 200 [0m| 223.211561ms|   match|[44m GET     [0m /static/dist/bundle.js
+2017/06/08 16:12:21 [D] [server.go:2568] |   172.21.2.153|[43m 404 [0m|    295.951µs| nomatch|[44m GET     [0m /static/dist/dist/purify.min.js.map
+2017/06/08 16:16:39 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      483.7µs|   match|[44m GET     [0m /     r:/
+2017/06/08 16:16:39 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.059388ms|   match|[44m GET     [0m /static/dist/bundle.js
+2017/06/08 16:16:39 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    400.339µs| nomatch|[44m GET     [0m /dist/purify.min.js.map
+2017/06/08 16:16:39 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.259488ms|   match|[44m GET     [0m /static/dist/bundle.js.map
+2017/06/08 16:16:40 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    298.144µs| nomatch|[44m GET     [0m /favicon.ico
+2017/06/08 16:23:40 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     450.78µs|   match|[44m GET     [0m /     r:/
+2017/06/08 16:23:40 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    773.818µs|   match|[44m GET     [0m /static/dist/bundle.js
+2017/06/08 16:23:40 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    273.514µs| nomatch|[44m GET     [0m /dist/purify.min.js.map
+2017/06/08 16:23:41 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.070874ms|   match|[44m GET     [0m /static/dist/bundle.js.map
+2017/06/08 16:23:41 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|     289.92µs| nomatch|[44m GET     [0m /favicon.ico
+2017/06/08 16:23:52 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    508.113µs|   match|[44m GET     [0m /     r:/
+2017/06/08 16:23:53 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    369.003µs| nomatch|[44m GET     [0m /dist/purify.min.js.map
+2017/06/08 16:26:03 [I] [main.go:48] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 16:26:03 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 16:26:14 [D] [server.go:2568] |   172.21.2.153|[42m 200 [0m|    963.003µs|   match|[44m GET     [0m /     r:/
+2017/06/08 16:26:14 [D] [server.go:2568] |   172.21.2.153|[42m 200 [0m| 175.804273ms|   match|[44m GET     [0m /static/dist/bundle.js
+2017/06/08 16:26:14 [D] [server.go:2568] |   172.21.2.153|[43m 404 [0m|    310.224µs| nomatch|[44m GET     [0m /dist/purify.min.js.map
+2017/06/08 16:26:14 [D] [server.go:2568] |   172.21.2.153|[43m 404 [0m|    416.451µs| nomatch|[44m GET     [0m /favicon.ico
+2017/06/08 16:26:14 [D] [server.go:2568] |   172.21.2.153|[42m 200 [0m| 436.663963ms|   match|[44m GET     [0m /static/dist/bundle.js.map
+2017/06/08 16:46:47 [I] [main.go:72] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 16:47:23 [I] [main.go:74] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 16:48:54 [I] [main.go:74] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 16:50:24 [I] [asm_amd64.s:2197] http server Running on http://:8081
+2017/06/08 16:56:15 [I] [main.go:74] user=postgres password=postgres dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 17:04:04 [I] [main.go:74] user=application password=levlevlev dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 17:12:45 [I] [main.go:74] user=application password=levlevlev dbname=test host=localhost port=5432 sslmode=disable
+2017/06/08 17:12:54 [I] [asm_amd64.s:2197] http server Running on http://%APP_DEVHOST_NAME%:8081
+2017/06/08 17:12:54 [C] [asm_amd64.s:2197] ListenAndServe:  listen tcp: address %APP_DEVHOST_NAME%:8081: missing brackets in address
+2017/06/08 17:19:08 [I] [asm_amd64.s:2197] http server Running on http://:8081
+2017/06/08 17:19:36 [I] [asm_amd64.s:2197] http server Running on http://:8081
+2017/06/08 17:21:06 [I] [asm_amd64.s:2197] http server Running on http://:8081
+2017/06/08 17:22:51 [I] [asm_amd64.s:2197] http server Running on http://:8081
+2017/06/08 17:23:19 [I] [asm_amd64.s:2197] http server Running on http://mm.lvgs:8081
+2017/06/08 17:23:49 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 17:56:47 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 17:59:21 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 17:59:38 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 18:00:12 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 18:00:30 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 18:01:06 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 18:01:23 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 18:01:49 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 18:04:59 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 19:09:30 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 19:10:21 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 19:12:58 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 19:13:13 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 19:13:25 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 19:13:48 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 19:14:10 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081
+2017/06/08 19:15:16 [I] [asm_amd64.s:2197] http server Running on http://h-takeo.mm.lvgs:8081

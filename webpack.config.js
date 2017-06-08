@@ -2,6 +2,8 @@ var webpack = require('webpack');
 var path = require('path');
 var HtmlwebpackPlugin = require('html-webpack-plugin');
 var merge = require('webpack-merge');
+var loadenv = require('node-env-file');
+loadenv("./.env");
 
 const ENV = process.env.npm_lifecycle_event;
 process.env.BABEL_ENV = ENV;
@@ -66,7 +68,7 @@ if (ENV === 'start' || !ENV) {
             port: 3000,
             proxy: {
                 '**': {
-                    target: 'http://localhost:8080',
+                    target: 'http://' + process.env.APP_DEVHOST_NAME + ':8081',
                     secure: false,
                 },
             },
